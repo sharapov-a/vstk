@@ -1,1 +1,101 @@
+body {
+    background-color: #FAF7EF;
+    background-image: url(bg.png);
+    background-repeat: no-repeat; 
+    background-size: contain;
+    background-position: right;
+    font-family: 'Raleway', sans-serif;
+    line-height: 2em;
+    color: #4c4c4b;
+    }
 
+h1, h2, h3 {
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    margin: 0; 
+    padding: 4px;
+}
+
+.nav li {
+    display: inline;
+    margin-right: 5px;
+    padding: 5px; 
+}
+
+.nav li a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #4c4c4b;
+    transition: all linear 0.3s;
+}
+
+.nav li a:hover {
+    color: #F38A33;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+.wrap {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 20px;
+}
+
+.wrap_text {
+    padding-top: 30px;
+}
+
+.photo {
+    text-align: center;
+    margin-right: 25px;
+}
+
+.photo img {
+    border: solid 1px #dcdcae;
+}
+
+#aboutme {
+    padding-top: 30px;
+}
+
+#hobby, #how, #cont{
+    padding-top: 20px;
+}
+
+p {
+    font-size: 18px;  
+}
+
+p > a{
+color: #4c4c4b;
+text-decoration: none;
+cursor: pointer;
+text-decoration: underline;
+}
+
+.icon {
+vertical-align: middle;
+height: 20px;
+margin-right: 7px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
